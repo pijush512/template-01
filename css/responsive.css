@@ -1,0 +1,225 @@
+@media (max-width: 767px) {
+    #nav {
+        padding: 0 24px;
+    }
+    .nav_menu {
+        display: none;
+    }
+    /* banner */
+    #banner {
+        display: flex;
+        flex-direction: column;
+        padding: 0 24px;
+    }
+    #banner::before {
+        max-width: 107px;
+        width: 100%;
+        max-height: 100%;
+    }
+    .banner_heading h1 {
+        max-width: 300px;
+        width: 100%;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .banner_img {
+        max-width: 339px;
+        width: 100%;
+    }
+    /* /banner */
+    /* todo Support section start */
+    #support {
+        padding: 40px 24px 0px 24px;
+    }
+    .support_menu {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .support_item {
+        width: calc(50% - 16px);
+    }
+    /*  Support section end */
+    /*todo catagori Course section start */
+    .catagori_courses {
+        padding: 0 24px;
+    }
+    h4 {
+        max-width: 225px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+    .seeall_btn a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .arro {
+        display: none;
+    }
+    .technology {
+        display: none;
+    }
+    .course_catagori div img{
+        max-width: 116px;
+        width: 100%;
+        max-height: 133px;
+        height: 100%;
+    }
+    /* catagori Course section end */
+    /*todo Popular ourses section start */
+    .popular_courses {
+        padding: 0 24px;
+    }
+    .populer_cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Popular ourses section end */
+    /* todo Learn skill section start  */
+    #learn_skill {
+        padding: 0 24px;
+    }
+    .learn_skill_cards {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+    .learn_skill_arro {
+        display: none;
+    }
+    /*  Learn skill section end  */
+    /*todo Eduction section start */
+    #eduction {
+        padding: 0 24px;
+    }
+    #eduction h4 {
+        max-width: unset;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+    .eduction_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .eduction_image {
+        max-width: 376px;
+        width: 100%;
+    }
+    .eduction_doco_heading {
+        max-width: 317px;
+        width: 100%;
+    }
+    .eduction_doco_heading h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .education_list ul li a img {
+        max-width: 29.74px;
+        width: 100%;
+    }
+    .education_list ul li a p {
+        font-size: 14px;
+        line-height:21px ;
+    }
+    /* Eduction section end */
+    /* todo Reviews section start */
+    #reviews {
+        padding: 0 24px;
+    }
+    #reviews h4 {
+        display: none;
+    }
+    .review_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .review_card_doco p {
+        font-family: open sans;
+        font-weight: 600;
+        font-size: 18px;
+        line-height:24.51px ;
+        color: #09B451;
+    }
+    .review_sm_card p {
+        font-size: 14px;
+    }
+    /*todo Instructors section start */
+    #instructor{
+        padding: 0 24px;
+    }
+    #instructor h4{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .instructors_all_card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .instructors_card {
+        width: calc(50% - 16px);
+    }
+    /* Instructors section end */
+    /*todo First step section start  */
+    #first_step {
+        padding: 0 24px;
+    }
+    .first_step_man {
+        display: none;
+    }
+    .first_step_doco h1 {
+        padding-top: 70px;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+
+    }
+    .first_step_doco p {
+        max-width: 311px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.97px;
+        text-align: center;
+        margin: auto;
+    }
+    .first_step_doco_btn {
+        padding-top: 50px;
+        margin: auto;
+    }
+    /* First step section end  */
+    /*todo Footer section start  */
+    footer {
+        padding: 0 24px;
+    }
+    .footter_bottom h4{
+        font-size: 24px;
+    }
+    .footer_content.flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    .footer_email_bar input{
+        max-width: 380px;
+        width: 100%;
+        height: 36px;
+        border: none;
+        padding-left: 18px;
+    }
+    
+    /* Footer section end  */
+}
